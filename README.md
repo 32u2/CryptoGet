@@ -82,26 +82,26 @@ The add-in has a single window used to set the API key and, also, to provide inf
 =CGITBinOutVar("BTC")
 - Value
 - Score
-- Score threashold bearish
-- Score threashold bullish
+- Score threshold bearish
+- Score threshold bullish
 
 =CGITBlargetxsVar("BTC")
 - Value
 - Score
-- Score threashold bearish
-- Score threashold bullish
+- Score threshold bearish
+- Score threshold bullish
 
 =CGITBaddressesNetGrowth("BTC")
 - Value
 - Score
-- Score threashold bearish
-- Score threashold bullish
+- Score threshold bearish
+- Score threshold bullish
 
 =CGITBconcentrationVar("BTC")
 - Value
 - Score
-- Score threashold bearish
-- Score threashold bullish
+- Score threshold bearish
+- Score threshold bullish
 
 =CGCustomData("BTC", "USD", "PRICE|SUPPLY|MKTCAP")
 
@@ -113,6 +113,8 @@ TYPE | FLAGS | PRICE | LASTUPDATE | MEDIAN | LASTVOLUME | LASTVOLUMETO | LASTTRA
 
 - Perhaps hook up websockets part of the API to Excel RTD
 - Cache certain API calls (i.e. daily history)
+- Add return and log return functions
+- Add simple portfolio simulation / risk measures (MC with Cholesky, incl. intermediate outputs)
 
 ## Credits
 
