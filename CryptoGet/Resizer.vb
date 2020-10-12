@@ -167,9 +167,9 @@ Public Module ResizeTestFunctions
                 Dim isR1C1Mode As Boolean = CBool(Excel(xlfGetWorkspace, 4))
                 Dim formulaR1C1 As String = formula
                 If Not isR1C1Mode Then
-                    ' Set the formula into the whole target
-                    Dim formulaR1C1Obj As Object
-                    Dim formulaR1C1Return As XlReturn
+                ' Set the formula into the whole target
+                Dim formulaR1C1Obj As Object = {}
+                Dim formulaR1C1Return As XlReturn
                     formulaR1C1Return = TryExcel(xlfFormulaConvert, formulaR1C1Obj, formula, True, False, ExcelMissing.Value, firstCell)
                     If formulaR1C1Return <> XlReturn.XlReturnSuccess OrElse TypeOf formulaR1C1Obj Is ExcelError Then
                         Dim firstCellAddress As String
