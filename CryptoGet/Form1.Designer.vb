@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
-        Me.btnSetApiKey = New System.Windows.Forms.Button()
+        Me.BtnSetApiKey = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'WebBrowser1
@@ -36,26 +36,26 @@ Partial Class Form1
         Me.WebBrowser1.Size = New System.Drawing.Size(784, 461)
         Me.WebBrowser1.TabIndex = 0
         '
-        'btnSetApiKey
+        'BtnSetApiKey
         '
-        Me.btnSetApiKey.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.btnSetApiKey.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.btnSetApiKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSetApiKey.ForeColor = System.Drawing.Color.Black
-        Me.btnSetApiKey.Location = New System.Drawing.Point(683, 9)
-        Me.btnSetApiKey.Name = "btnSetApiKey"
-        Me.btnSetApiKey.Size = New System.Drawing.Size(75, 28)
-        Me.btnSetApiKey.TabIndex = 1
-        Me.btnSetApiKey.TabStop = False
-        Me.btnSetApiKey.Text = "Set API Key"
-        Me.btnSetApiKey.UseVisualStyleBackColor = False
+        Me.BtnSetApiKey.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.BtnSetApiKey.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.BtnSetApiKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSetApiKey.ForeColor = System.Drawing.Color.Black
+        Me.BtnSetApiKey.Location = New System.Drawing.Point(683, 9)
+        Me.BtnSetApiKey.Name = "BtnSetApiKey"
+        Me.BtnSetApiKey.Size = New System.Drawing.Size(75, 28)
+        Me.BtnSetApiKey.TabIndex = 1
+        Me.BtnSetApiKey.TabStop = False
+        Me.BtnSetApiKey.Text = "Set API Key"
+        Me.BtnSetApiKey.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(784, 461)
-        Me.Controls.Add(Me.btnSetApiKey)
+        Me.Controls.Add(Me.BtnSetApiKey)
         Me.Controls.Add(Me.WebBrowser1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
@@ -67,5 +67,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
-    Friend WithEvents btnSetApiKey As System.Windows.Forms.Button
+    Friend WithEvents BtnSetApiKey As System.Windows.Forms.Button
 End Class

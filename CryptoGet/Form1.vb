@@ -154,7 +154,7 @@ The functions below are mostly self-adjustable array functions, so you don't nee
         WebBrowser1.Select()
     End Sub
 
-    Private Sub btnSetApiKey_Click(sender As Object, e As EventArgs) Handles btnSetApiKey.Click
+    Private Sub BtnSetApiKey_Click(sender As Object, e As EventArgs) Handles BtnSetApiKey.Click
         Dim ExistingApiKey As String = GetSetting("CryptoGet", "creds", "api", "")
         Dim ApiKey As String = InputBox("Enter API key as obtained from cryptocompare.com:", "API Key", ExistingApiKey)
         If ApiKey.Length() > 6 Then

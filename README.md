@@ -7,14 +7,18 @@ All date/time values are provided at source as Unix timestamps. To convert to Ex
 
 **=( UnixTimestamp - DATE(1970,1,1)) * 86400**
 
+## UI
+
+The add-in has a single window used to set the API key and, also, to provide information about returned values.
+
 ![CryptoGet Add-in](CryptoGet.jpg "CryptoGet Add-in")
 
 ## Available Functions
 
-=CGPrice(""BTC"", ""USD"")
+=CGPrice("BTC", "USD")
 - Price
 
-=CGDailyHistory(""BTC"", ""USD"", 10)
+=CGDailyHistory("BTC", "USD", 10)
 - Time
 - High
 - Low
@@ -24,7 +28,7 @@ All date/time values are provided at source as Unix timestamps. To convert to Ex
 - Close
 
 
-=CGHourlyHistory(""BTC"", ""USD"", 10)
+=CGHourlyHistory("BTC", "USD", 10)
 - Time
 - High
 - Low
@@ -34,7 +38,7 @@ All date/time values are provided at source as Unix timestamps. To convert to Ex
 - Close
 
 
-=CGMinuteHistory(""BTC"", ""USD"", 10)
+=CGMinuteHistory("BTC", "USD", 10)
 - Time
 - High
 - Low
@@ -44,7 +48,7 @@ All date/time values are provided at source as Unix timestamps. To convert to Ex
 - Close
 
 
-=CGAddresses(""BTC"")
+=CGAddresses("BTC")
 - ID
 - Time
 - Zero balance addresses all time
@@ -52,13 +56,13 @@ All date/time values are provided at source as Unix timestamps. To convert to Ex
 - New addresses
 - Active addresses
 
-=CGAvgTransactions(""BTC"")
+=CGAvgTransactions("BTC")
 - Average transaction value
 - Transaction count
 - Transaction count all time
 - Large transaction count
 
-=CGBlock(""BTC"")
+=CGBlock("BTC")
 - Block height
 - Hash rate
 - Difficulty
@@ -66,7 +70,7 @@ All date/time values are provided at source as Unix timestamps. To convert to Ex
 - Block size
 - Current supply
 
-=CGBlockDaily(""BTC"", ""10"")
+=CGBlockDaily("BTC", "10")
 - Time
 - Block height
 - Hash rate
@@ -75,31 +79,31 @@ All date/time values are provided at source as Unix timestamps. To convert to Ex
 - Block size
 - Current supply
 
-=CGITBinOutVar(""BTC"")
+=CGITBinOutVar("BTC")
 - Value
 - Score
 - Score threashold bearish
 - Score threashold bullish
 
-=CGITBlargetxsVar(""BTC"")
+=CGITBlargetxsVar("BTC")
 - Value
 - Score
 - Score threashold bearish
 - Score threashold bullish
 
-=CGITBaddressesNetGrowth(""BTC"")
+=CGITBaddressesNetGrowth("BTC")
 - Value
 - Score
 - Score threashold bearish
 - Score threashold bullish
 
-=CGITBconcentrationVar(""BTC"")
+=CGITBconcentrationVar("BTC")
 - Value
 - Score
 - Score threashold bearish
 - Score threashold bullish
 
-=CGCustomData(""BTC"", ""USD"", ""PRICE|SUPPLY|MKTCAP"")
+=CGCustomData("BTC", "USD", "PRICE|SUPPLY|MKTCAP")
 
 Return multiple measures as per pipe-delimited request. Available measures are:
 
