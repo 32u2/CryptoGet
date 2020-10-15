@@ -115,6 +115,7 @@ TYPE | FLAGS | PRICE | LASTUPDATE | MEDIAN | LASTVOLUME | LASTVOLUMETO | LASTTRA
 - Cache certain API calls (i.e. daily history)
 - Add return and log return functions
 - Integrate [R.NET](https://www.nuget.org/packages/R.NET)
+- Offer more friendly date/time format
 
 
 ## Credits
