@@ -1,6 +1,6 @@
 # CryptoGet Add-In
 
-This add-in relies on [cryptocompare.com](https://www.cryptocompare.com) API. Visit their API pages to obtain API key (free with some limitations) and for detailed explanation with regards to provided data.
+This add-in relies on the [cryptocompare.com](https://www.cryptocompare.com) API. Visit their API pages to obtain an API key (free with some limitations) and for a detailed explanation of the provided data.
 The functions below are mostly self-adjustable array functions, so you don't need Ctrl-Shift-Return while entering them. For modifications/support, contact author at [sundayheap.com](http://sundayheap.com).
 
 All date/time values are provided at source as Unix timestamps. To convert to Excel date, use:
